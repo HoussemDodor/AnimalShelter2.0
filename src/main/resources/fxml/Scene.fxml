@@ -22,5 +22,9 @@
       <Button id="bttn_addAnimal" layoutX="19.0" layoutY="239.0" mnemonicParsing="false" text="Add Animal" />
       <Label layoutX="178.0" layoutY="14.0" text="Animals:" />
       <ListView layoutX="178.0" layoutY="32.0" prefHeight="155.0" prefWidth="270.0" />
+      <Label layoutX="178.0" layoutY="197.0" text="Reserve an animal:" />
+      <Label layoutX="178.0" layoutY="222.0" text="Name:" />
+      <TextField id="txtBox_reservorName" layoutX="223.0" layoutY="218.0" />
+      <Button id="bttn_reserve" layoutX="384.0" layoutY="218.0" mnemonicParsing="false" text="Reserve" />
    </children>
 </AnchorPane>
